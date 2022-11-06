@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace DataStructures.LinkedList.SinglyLinkedList.AddBeginningAndEnd
+namespace DataStructures.LinkedList.SinglyLinkedList.Add
 {
     public class Liste
     {
@@ -46,6 +46,45 @@ namespace DataStructures.LinkedList.SinglyLinkedList.AddBeginningAndEnd
                 }
                 temp.next = newNode;//While'dan çıktığında son düğümde olacak.Son düğümün next'ini newNode yaparak son düğümü newNode yapmış olduk.
                 Console.WriteLine("Sona eleman eklendi.");
+            }
+        }
+        public void InsertAfter(int index,int data)//Bir index alıyoruz çünkü düğümü belirtilen indexe ekleyeceğiz.
+        {
+            Node newNode = new Node(data);
+            if(head == null && index == 0)
+            {
+                head = newNode;
+            }
+            else if( head != null && index == 0)//0.index'e de eleman eklemek isteyebilir.
+            {
+                newNode.next = head;
+                head = newNode;
+            }
+            else
+            {
+                int i = 0; //İki adet temp'e ihtiyacımız var.Çünkü bir tanesi eklenecek indisin solundaki değeri diğeri de sağındaki değeri tutacak
+                Node temp = head; 
+                Node temp2 = temp;
+                while(temp.next != null)
+                {
+                    if(i == index)
+                    {
+                        temp2.next = newNode;
+                        newNode.next = temp;
+                        Console.WriteLine("Araya eleman eklendi");
+                        i++;
+                        break;
+                    }
+                    temp2 = temp;
+                    temp = temp.next;
+                    i++;
+                }
+                if(i == index) // Diyelim ki son index'e ekleme yapılmak istendi.While döngüsünde i son index'e gelmiş olacak zaten.While'dan çıkınca bu if'e girecek ve son düğüme ekleme yapacak.
+                {
+                    temp2.next = newNode;
+                    newNode.next = temp;
+                    Console.WriteLine("Araya eleman eklendi");
+                }
             }
         }
         public void Print()

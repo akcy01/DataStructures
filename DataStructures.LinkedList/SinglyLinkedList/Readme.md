@@ -8,3 +8,4 @@ Yeni düğüm her zaman verilen Bağlantılı Liste'nin başından önce eklenir
 Yeni düğüm her zaman verilen Bağlantılı Listedeki son düğümden sonra eklenir. Örneğin, verilen Bağlantılı Liste 5->10->15->20->25 ise ve sonuna 30 madde eklersek, Bağlantılı Liste 5->10->15->20->25->30 olur.
 Bir Bağlantılı Liste tipik olarak başı tarafından temsil edildiğinden, listeyi sonuna kadar geçmemiz ve ardından sondan sonraki düğümü yeni bir düğümle değiştirmemiz gerekir.
  
+#SinglyLinkedList Ortaya Eleman Ekleme

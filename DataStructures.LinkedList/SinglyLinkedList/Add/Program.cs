@@ -5,7 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 using static DataStructures.LinkedList.SinglyLinkedList.Node;
 
-namespace DataStructures.LinkedList.SinglyLinkedList.AddBeginningAndEnd
+namespace DataStructures.LinkedList.SinglyLinkedList.Add
 {
     public  class Program
     {
@@ -19,6 +19,8 @@ namespace DataStructures.LinkedList.SinglyLinkedList.AddBeginningAndEnd
 
             list.Append(5);
             list.Append(9);
+
+            list.InsertAfter(3, 19);
 
             list.Print();
 
