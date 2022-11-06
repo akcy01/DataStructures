@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace DataStructures.LinkedList.SinglyLinkedList
+namespace DataStructures.LinkedList.SinglyLinkedList.AddBeginningAndEnd
 {
      public class Node
        {
@@ -16,4 +16,5 @@ namespace DataStructures.LinkedList.SinglyLinkedList
                 next = null;
           }
        }
+    
 }

@@ -15,3 +15,4 @@ işaretçisinde bağlantılı listenin ilk/baş düğümünün bağlantısını 
 
 #Bağlantılı Liste Yapısı 
 SinglyLinkedList klasöründen ne olduğuna bakabilirsiniz.
+

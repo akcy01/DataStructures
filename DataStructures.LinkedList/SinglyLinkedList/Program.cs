@@ -9,22 +9,21 @@ namespace DataStructures.LinkedList.SinglyLinkedList
 {
     public  class Program
     {
-        public static void Main(string[] args)
-        {
-            /* Temelde LinkedList yapısı bu şekilde oluşturulur. */
-            Node one = new Node(1);
-            Node second = new Node(15);
-            Node third = new Node(13);
+        //public static void Main(string[] args)
+        //{
+        //    /* Temelde LinkedList yapısı bu şekilde oluşturulur. */
+        //    Node one = new Node(1);
+        //    Node second = new Node(15);
+        //    Node third = new Node(13);
 
-            one.next = second;
-            second.next = third;
+        //    one.next = second;
+        //    second.next = third;
 
-            Console.WriteLine(one.data);
-            Console.WriteLine(second.data);
-            Console.WriteLine(third.data);
+        //    Console.WriteLine(one.data);
+        //    Console.WriteLine(one.next.data);//1.'nin üzerinden 2.'nin verisine eriştik !
+        //    Console.WriteLine(second.data);
+        //    Console.WriteLine(third.data);
 
-         
-        }    
-   
+        //}       
     }
 }

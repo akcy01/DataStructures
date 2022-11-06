@@ -10,6 +10,5 @@ namespace DataStructures.LinkedList.SinglyLinkedList
     {
         Node head = null;
         Node tail = null;
-
     }
 }
