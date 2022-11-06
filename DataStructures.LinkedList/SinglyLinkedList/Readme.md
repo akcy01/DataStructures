@@ -9,3 +9,4 @@ Yeni düğüm her zaman verilen Bağlantılı Listedeki son düğümden sonra ek
 Bir Bağlantılı Liste tipik olarak başı tarafından temsil edildiğinden, listeyi sonuna kadar geçmemiz ve ardından sondan sonraki düğümü yeni bir düğümle değiştirmemiz gerekir.
  
 #SinglyLinkedList Ortaya Eleman Ekleme
+Eklenecek index'deki değerin bir solunu bir de sağını tutacak iki düğüm oluşturulur.Bu iki düğümün arasına belirtilen index'e istenen düğüm eklenir..
