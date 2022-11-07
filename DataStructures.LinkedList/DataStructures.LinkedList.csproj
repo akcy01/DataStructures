@@ -16,4 +16,8 @@
     <WarningLevel>0</WarningLevel>
   </PropertyGroup>
 
+  <ItemGroup>
+    <Folder Include="SinglyLinkedList\Deletion\" />
+  </ItemGroup>
+
 </Project>
