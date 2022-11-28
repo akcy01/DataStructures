@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace DataStructures.LinkedList.SinglyLinkedList.Add
+namespace DataStructures.LinkedList.SinglyLinkedList.Deletion
 {
     public class Liste
     {
@@ -102,6 +102,18 @@ namespace DataStructures.LinkedList.SinglyLinkedList.Add
                     temp = temp.next;
                 }
                 Console.WriteLine(temp.data + " Son ");
+            }
+        }
+        public void DeleteBeginning()
+        {
+            if(head == null)
+            {
+                Console.WriteLine("Liste boş");
+            }
+            else
+            {
+                head = head.next; //Baştaki head otomatikmen silinecek ve Next'e geçecek.
+                Console.WriteLine("Baştan eleman silindi");
             }
         }
     }

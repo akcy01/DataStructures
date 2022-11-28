@@ -13,3 +13,8 @@ Bir Bağlantılı Liste tipik olarak başı tarafından temsil edildiğinden, li
 #SinglyLinkedList Ortaya Eleman Ekleme
 
 Eklenecek index'deki değerin bir solunu bir de sağını tutacak iki düğüm oluşturulur.Bu iki düğümün arasına belirtilen index'e istenen düğüm eklenir..
+
+#SinglyLinkedList Baştan Eleman Silme
+
+Head düğümü her zaman en baştaki düğümümüz idi.Head düğümü siliniyor ancak head göstericisi bir sonraki düğümü göstermeye devam edecek.Yani baştaki head düğümünün next'i bizim yeni Head'ımız olacak.
+
