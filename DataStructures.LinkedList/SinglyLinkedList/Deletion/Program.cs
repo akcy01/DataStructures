@@ -23,6 +23,7 @@ namespace DataStructures.LinkedList.SinglyLinkedList.Deletion
             list.InsertAfter(3, 19);
 
             list.DeleteBeginning();
+            list.DeleteEnd();
             list.Print();
 
 

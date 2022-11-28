@@ -116,5 +116,29 @@ namespace DataStructures.LinkedList.SinglyLinkedList.Deletion
                 Console.WriteLine("Baştan eleman silindi");
             }
         }
+        public void DeleteEnd()
+        {
+            if (head == null)
+            {
+                Console.WriteLine("Liste boş");
+            }
+            else if (head.next == null) //Bir tane düğüm olması durumu.
+            {
+                head = null;
+                Console.WriteLine("Listede kalan son düğüm de silindi.");
+            }
+            else
+            {
+                Node temp = head;
+                Node temp2 = temp;
+                while(temp.next != null)
+                {
+                    temp2 = temp;
+                    temp = temp.next;//Döngü bittiğinde temp son düğüm temp2 sondan bir önceki düğüm olacak.Bu sayede temp2'yi son düğüm yapabileceğiz.
+                }
+                temp2.next = null;
+                Console.WriteLine("Sondaki düğüm silindi.");
+            }
+        }
     }
 }

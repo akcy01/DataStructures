@@ -18,3 +18,6 @@ Eklenecek index'deki değerin bir solunu bir de sağını tutacak iki düğüm o
 
 Head düğümü her zaman en baştaki düğümümüz idi.Head düğümü siliniyor ancak head göstericisi bir sonraki düğümü göstermeye devam edecek.Yani baştaki head düğümünün next'i bizim yeni Head'ımız olacak.
 
+#SinglyLinkedList Sondan Eleman Silme
+
+Sondaki düğümün next'i her zaman null'u gösteriyordu.Yapmamız gereken şey bir önceki düğümün next'inin null göstermesini sağlamak.Geçici bir değişken oluşturup baştan başlayarak en son düğüme kadar ilerlememiz gerekli.
