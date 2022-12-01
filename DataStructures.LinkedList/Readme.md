@@ -13,6 +13,6 @@ veya çaprazlanabilir (İleri ve Geri)
 Dairesel Bağlantılı Liste(CircularLinkedList) => Bu tür bağlantılı listede, bağlantılı listenin son düğümü, bir sonraki
 işaretçisinde bağlantılı listenin ilk/baş düğümünün bağlantısını içerir ve ilk/baş düğüm, listenin son düğümünün bağlantısını içerir. 
 
-#Bağlantılı Liste Yapısı 
+#Bağlantılı Liste Yapısı (SinglyLinkedList)
 SinglyLinkedList klasöründen ne olduğuna bakabilirsiniz.
 

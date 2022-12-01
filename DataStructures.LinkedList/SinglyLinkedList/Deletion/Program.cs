@@ -26,6 +26,8 @@ namespace DataStructures.LinkedList.SinglyLinkedList.Deletion
             list.DeleteEnd();
             list.Print();
 
+            
+
 
         }    
     }
