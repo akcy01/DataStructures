@@ -37,13 +37,16 @@ Kaba kuvvet algoritması, isminden de anlaşılacağı üzere çok zeki olmayan 
 5^5 = 5x5x5x5x5
 
 
+
 2-)RECURSION ALGORITMASI
 Bir problemin alt problemlere bölünüp hesaplanmasına, nerde son bulacağımı belirttiğimiz ifadelere recursion (Özyineleme) diyoruz.En genel anlamı ise bir yapının (kendi kendine) yinelenmesidir.Özyinelemeli bir işlev, kendisinin bir kopyasını çağırarak ve orijinal problemlerin daha küçük alt problemlerini çözerek belirli bir problemi çözer.
+
 
 
 3-)BACKTRACKING ALGORITMASI
 Geri izleme, herhangi bir zamanda sorunun kısıtlamalarını karşılamayan çözümleri ortadan kaldırarak, her seferinde tek parça bir çözüm oluşturmaya çalışarak sorunları özyinelemeli olarak çözmeye yönelik algoritmik bir tekniktir (burada zamana göre, arama ağacının herhangi bir seviyesine ulaşana kadar geçen süre).
 Örneğin, SudoKo çözme Problemini ele alalım, rakamları birer birer doldurmaya çalışıyoruz. Mevcut rakamın bir çözüme yol açamayacağını anladığımızda, onu kaldırırız (geri izleme) ve bir sonraki haneyi deneriz. Bu, saf yaklaşımdan (tüm olası rakam kombinasyonlarını oluşturmak ve ardından her kombinasyonu tek tek denemek) daha iyidir, çünkü geri gittiğinde bir dizi permütasyon düşürür.
+
 
 
 4-)SEARCHING ALGORITMALARI
@@ -53,4 +56,20 @@ Sequential Search, veri yapımızda verilerin belli bir sıra ile tutulmadığı
 
 Interval Search ise sıralı veri yapısı üzerinde uygulanan algoritmalar için kullanılır. Bunun altında Binary Search, Jump Search, Exponential Search, Fibonacci Search gibi algoritmalar bulunur. Bunlar haricinde birçok farklı algoritma geliştirilmiştir. Hali hazırda bilindik bu algoritmaların da birçoğunun geliştirilmiş versiyonu bulunmaktadır. Biz bu yazıda konuya aşinalık kazandırmak için iki tane temel algoritmanın çalışma mantığına bakacağız.
 
+**Linear Search
+Bu arama algoritması en basit ve çalışma zamanı olarak en kötü algoritmalardan biridir. Çünkü en kötü ihtimal ile veri yapımız üzerinde tüm elemanları gezmesi gerekir.Linear Search, verilen veri seti üzerinde her bir eleman ile aranan değeri karşılaştırarak arar. Eğer aranan veri dizide bulunursa dizinin indeksini döner. Bulamazsa -1 gibi bir değer döner.Bu algoritmanın zaman karmaşıklığı O(n)’dir. Burada n değeri inputu temsil ediyor. Uzunluğu “n” olan bir dizi için en kötü durumda “n” kez çalışacak demek oluyor.
+
+**Binary Search
+Binary Search, sıralı(sorted) bir veri yapısı için kullanılır. Yani algoritmaya aranan veri ve sıralı bir veri yapısı verirsiniz. Algoritma da size önceki örnekteki gibi eğer bulunursa aranan verinin indeksini döner. Bunun için önce elimizdeki verinin sıralanması gerekir. Bunun bir sorting algoritması kullanırsınız.Binary Search çalışma zamanı olarak Linear Search’den daha iyidir. Her iterasyonda arama uzayını yarıya indirmek üzere tasarlanmıştır. Öncelikle dizinin ortasındaki değeri aranan değer ile karşılaştırır. Eğer aranan değer ortanca değerden küçükse dizinin ikinci yarısını görmezden gelerek ilk yarısında aramaya devam eder. Daha sonra tekrar ilk yarının ortanca değeri ile karşılaştırır. Eğer aranan değer ortanca değerden küçükse sol yarı, büyükse sağ yarı ile devam eder. Bu şekilde aranan değeri bulana kadar sürer. Aranan değer ilk iterasyonda da bulunabilir son iterasyonda da. Ancak Linear Search’den farklı olarak her bir elemanı gezmediği için aranan değeri daha hızlı bulacaktır. 
+
+
+
+5-)SIRALAMA ALGORITMALARI	
+Sıralama algoritmaları kullanmamızdaki amaç, algoritmanın isminden de anlaşılacağı üzere sahip olduğumuz veriyi en hızlı şekilde büyükten küçüğe ya da küçükten büyüğe bir sıraya sokmak. Bunun için kullanılan bir çok sıralama algoritması vardır.Bazı sıralama algoritmalarını açıklayalım ==
+
+**Selection Sort(Seçerek Sıralama)
+Selection Sort (Seçerek Sıralama) aslında performans bakımından diğer sıralama algoritmalarına kıyasla bir tık zayıf kalsa da zor durumlarımızda bize yardımcı oluyor. Uygulaması oldukça basit olan bu algoritma dizinin ilk elemanının en küçük eleman olduğunu varsayıyor. Ardından tek tek bu elemanı diğer elemanlarla karşılaştırıyor. Eğer karşılaştırdığı eleman daha küçük ise onu en küçük değer olarak alıyor ve ilk eleman yerine artık diğer elemanları onunla karşılaştırıyor. Dizinin sonuna vardığında ise en küçük elemanı dizinin başına yazıyor. Ardından bu işlemi 2. elemandan başlayarak yapıyor ve bulduğu en küçük değeri 2. sıraya koyuyor benzer şekilde işlemi dizinin son elemanına kadar aynı şekilde tekrarlıyor.
+
+**Bubble Sort(Kabarcık Sıralaması)
+Dizinin elemanları üzerinden ilk elemandan başlayarak ve her geçişte sadece yan yana bulunan iki eleman arasında sıralama yapılır. Dizinin başından sonuna kadar tüm elemanlar bir kez işleme tabi tutulduğunda dizinin son elemanı (küçükten büyüğe sıralandığında) en büyük eleman haline gelecektir. Bir sonraki tarama ise bu en sağdaki eleman dışarıda bırakılarak gerçekleştirilmektedir. Bu dışarıda bırakma işlemi de dış döngüdeki sayaç değişkeninin değerinin her işletimde bir azaltılmasıyla sağlanmaktadır. Sayaç değişkeninin değeri 1 değerine ulaştığında ise dizinin solunda kalan son iki eleman da sıralanmakta ve sıralama işlemi tamamlanmaktadır.
 
