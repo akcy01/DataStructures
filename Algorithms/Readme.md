@@ -84,4 +84,5 @@ Verinin hafızada sıralı tutulması için geliştirilen sıralama algoritmalar
 -Diziden herhangi bir eleman al(pivot elaman)
 -Pivot elemanından küçük olanları bir diziye, büyükleri bir diziye topla.
 -Bu alt dizilerden yukarıdaki gibi pivot elemanları seçip aynı işlemi uygula. İç içe en küçük parçalara ulaşana kadar bu yöntemi sürdür.
--Oluşan dizicikleri birleştir
+-Oluşan dizicikleri birleştir.
+

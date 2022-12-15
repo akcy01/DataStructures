@@ -6,7 +6,13 @@ using System.Threading.Tasks;
 
 namespace DataTypes.Struct
 {
-    internal class Program
+    public struct Ogrenci
     {
+       public int Numara { get; set; } //get okuma set yazma set sayesinde yeni bir numara atayabilirsin oraya.
+    }
+    public class Program
+    {
+        static void 
+
     }
 }
