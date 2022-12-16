@@ -1,12 +1,8 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿#SortedList Nedir?
 
-namespace DataStructures.SortedLists
-{
-    class Readme
-    {
-    }
-}
+Yine key value şeklinde tutulur.
+Key sıralaması yapılır.HashTable ile farkı budur.
+Sıralı organize edilir.
+Hem key hem indislerle elemanlarla erişim sağlayabiliriz.
+
+
