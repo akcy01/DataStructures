@@ -1,12 +1,8 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿#Queue Nedir 
+Queue generic bir Veri yapısıdır.İlk gelen ilk çıkar.First in first out.
+Enqueue() ekleme
+Dequeue() çıkarma
+peek() en yukardaki eleman
+Count eleman sayısını veriyor
+clear() temizlemeye yarar.
 
-namespace DataStructures.Queue
-{
-    class Readme
-    {
-    }
-}
