@@ -1,12 +1,2 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace DataStructures.Dictionary
-{
-    class Readme
-    {
-    }
-}
+﻿#Dictionary Nedir
+Generic bir yapıdadır.Verileri Key Value yani anahtar değer şeklinde tutar.HashTable ile çok benzer ama HashTable'dan daha hızlıdır.

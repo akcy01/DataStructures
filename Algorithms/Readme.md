@@ -86,3 +86,29 @@ Verinin hafızada sıralı tutulması için geliştirilen sıralama algoritmalar
 -Bu alt dizilerden yukarıdaki gibi pivot elemanları seçip aynı işlemi uygula. İç içe en küçük parçalara ulaşana kadar bu yöntemi sürdür.
 -Oluşan dizicikleri birleştir.
 
+
+
+6-)HASHING ALGORITMALARI
+Hashing’in temel fikri, elimdeki veriyi sistematik olarak yerleştireyim ki, aradığımda direkt adrese bakayım şeklindedir. Mesela evinizde bir dolap olsun, dolaplarda da gözler olsun. Siz bir eşyayı aradığınızda tüm gözlere tek tek mi bakarsınız yoksa hangi gözde hangi eşyanız var bilir de direkt olarak hedefe mi yönlenirsiniz? İşte Hashing Veri Yapısındaki temel fikir de budur. Ancak bilgisayar dünyasındaki temel sorun, bu dünyanın sürekli dinamik olması ve ekleme & çıkarma işlemlerinin sık sık yapılması kaynaklıdır.
+
+Şimdi konuyu biraz daha spesifik bir hale getirelim. Elimizde sayılar var, bu sayıları bir diziye (array) yerleştirmemiz gerekiyor. Ancak temel hedefimizde arama işlemini kolaylaştırmak olacak. Bunu nasıl yapabiliriz? Akla Sıralama Algoritması Kullanmak gelebilir. iyi bir fikir gibi görünse de bizim temel amacımız olan hemen bulma durumunu gerçekleştiremeyecektir. Şimdi neden olmayacaktır bunu anlatalım Sorunları listeleyelim.
+
+1- Sıralama Maliyeti: Çok yüksek miktardaki sayıyı sıralamak zaten bir işlem ve süre maliyeti getirecektir.
+
+2- Ekleme/Çıkarma işlemleri: Özellikle dizi veri yapısı üzerinde ekleme çıkarma yapmak sancılı bir iştir. Hele kaydırma yapmak gibi işlemler düşünüldüğünde bu maliyet iyice artmaktadır
+
+3- Arama Maliyeti: Sayıların sıralı olması, hemen bulunacağı manasına gelmez, yalnızca arama algoritmasının performansına kalmış bir durumdur.
+
+Yukarıdaki 3 temel problem, bizim hızlı bulma amacımızı karşılamamaktadır. Peki ama çözüm nasıl olacak?
+
+Hashing Nedir?
+Şimdi direkt olaya girelim, Hashing bize diyor ki, Eklemek istediğin sayıyı, yerleştirmek istediğin dizinin boyutuna göre modunu al, o indise yerleştir. Arama yaparken, bir sayıyı aradığın dizinin boyutuna böl, o indiste sayıyı bulacaksın.Peki yerleştirme işlemi bu şekilde, bulma işlemi nasıl olacak?
+Örnek olarak 102 sayısını aramak istediğimizde biz bu diziye tek tek bakmayacağız. Nasıl olsa yerleştirme mantığını biliyoruz, 102 sayısının 10’a göre modunu aldığımızda 2 olduğunu görürüz ve dizinin 2. indisine bakarız, baktığımız yerde 102 sayısını buluruz. İşler bu ana kadar toz pembe olarak gitti, ancak bilgisayar dünyasında işler hiç de böyle gitmez. Şimdi dizimize yeni bir sayı ekleyelim, sayımız da 224 olsun. 224 % 10 yaptığımızda sonucun 4 olduğunu görürüz. Dizinin 4. indisine gideriz, o da ne? dizinin 4. indisi dolu, o halde ne yapacağız? İşte Hashing’i bilmek esasında bundan sonraki durumlar ile ilgili bir konudur. Genel terminolojide bu duruma Collision adı verilir. Collision kelimesinin Türkçesi çakışmadır. Zaten olan durumun tam da karşılığı budur. Hashing Collision durumunda 3 değişik çözüm sunar. (Bazıları iki değişik çözüm der, 2. ve 3. çözümler birbirine benzerdir çünkü. Şimdi bu duruma açıklama getirelim…
+
+	Devamı aşağıdaki link de.Güzel bir kaynak.
+	https://yazilimdnyasi.wordpress.com/2020/02/14/hashing-nedir-veri-yapilari/
+
+
+
+
+
