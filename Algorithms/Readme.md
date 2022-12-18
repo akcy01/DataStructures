@@ -106,9 +106,17 @@ Hashing Nedir?
 Örnek olarak 102 sayısını aramak istediğimizde biz bu diziye tek tek bakmayacağız. Nasıl olsa yerleştirme mantığını biliyoruz, 102 sayısının 10’a göre modunu aldığımızda 2 olduğunu görürüz ve dizinin 2. indisine bakarız, baktığımız yerde 102 sayısını buluruz. İşler bu ana kadar toz pembe olarak gitti, ancak bilgisayar dünyasında işler hiç de böyle gitmez. Şimdi dizimize yeni bir sayı ekleyelim, sayımız da 224 olsun. 224 % 10 yaptığımızda sonucun 4 olduğunu görürüz. Dizinin 4. indisine gideriz, o da ne? dizinin 4. indisi dolu, o halde ne yapacağız? İşte Hashing’i bilmek esasında bundan sonraki durumlar ile ilgili bir konudur. Genel terminolojide bu duruma Collision adı verilir. Collision kelimesinin Türkçesi çakışmadır. Zaten olan durumun tam da karşılığı budur. Hashing Collision durumunda 3 değişik çözüm sunar. (Bazıları iki değişik çözüm der, 2. ve 3. çözümler birbirine benzerdir çünkü. Şimdi bu duruma açıklama getirelim…
 
 	Devamı aşağıdaki link de.Güzel bir kaynak.
-	https://yazilimdnyasi.wordpress.com/2020/02/14/hashing-nedir-veri-yapilari/
+	https://yazilimdnyasi.wordpress.com/2020/02/14/hashing-nedir-veri-yapilari/  
+	
 
 
+7-)DIVIDE AND CONQUER (Böl Ve Yönet) ALGORITMALARI
+ Tipik bir Böl ve Yönet algoritması, aşağıdaki üç adımı kullanarak bir sorunu çözer.
 
+ **Böl : Verilen problemi aynı türden alt problemlere ayırın . Bu adım, problemi daha küçük alt problemlere bölmeyi içerir. Alt problemler, asıl problemin bir parçasını temsil etmelidir. Bu adım genellikle, hiçbir alt problem daha fazla bölünemeyene kadar problemi bölmek için özyinelemeli bir yaklaşım kullanır. Bu aşamada, alt problemler doğası gereği atomik hale gelir, ancak yine de asıl sorunun bir kısmını temsil eder.
+
+ **Fethet : Bu alt problemleri özyinelemeli olarak çözün. Bu adım, çözülmesi gereken birçok küçük alt problemi alır. Genel olarak, bu düzeyde, sorunlar kendi başlarına 'çözülmüş' kabul edilir.
+
+ **Birleştir : Cevapları uygun şekilde birleştirin. Daha küçük alt problemler çözüldüğünde, bu aşama onları orijinal problemin bir çözümünü formüle edene kadar tekrar tekrar birleştirir. Bu algoritmik yaklaşım özyinelemeli olarak çalışır ve fethet ve birleştir adımları o kadar yakın çalışır ki, tek bir görünüm olarak görünürler.
 
 
