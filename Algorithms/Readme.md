@@ -119,4 +119,5 @@ Hashing Nedir?
 
  **Birleştir : Cevapları uygun şekilde birleştirin. Daha küçük alt problemler çözüldüğünde, bu aşama onları orijinal problemin bir çözümünü formüle edene kadar tekrar tekrar birleştirir. Bu algoritmik yaklaşım özyinelemeli olarak çalışır ve fethet ve birleştir adımları o kadar yakın çalışır ki, tek bir görünüm olarak görünürler.
 
-
+ Devamı aşağıdaki link de güzel bir kaynak
+ https://tr.ilusionity.com/1027-divide-and-conquer-algorithm-meaning-explained-with-examples
