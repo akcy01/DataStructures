@@ -1,12 +1,5 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿#Koleksiyonlar 
 
-namespace DataStructures.Collection
-{
-    class Readme
-    {
-    }
-}
+Bir grup nesnenin organize şekilde yönetildiği yapılar collections olarak ifade edilir.Dizilerden farklı olarak,birlikte çalıştığınız nesne grubu,uygulamanın ihtiyaçları değiştikçe dinamik olarak büyüyebilir ve küçülebilir.
+
+Bazı koleksiyonlarda koleksiyonlara eklediğiniz herhangi bir nesneye anahtar atayabilirsiniz.(Key-Value,örnek olarak dictionary).
