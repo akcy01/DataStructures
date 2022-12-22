@@ -9,7 +9,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DataStructures.LinkedList",
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Algorithms", "Algorithms\Algorithms.csproj", "{75926646-C986-48AF-A9AB-EB37B939CF27}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataTypes", "DataTypes\DataTypes.csproj", "{25DD2B18-19C7-4BBF-A991-6304015E698C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DataTypes", "DataTypes\DataTypes.csproj", "{25DD2B18-19C7-4BBF-A991-6304015E698C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataStructures.Array", "DataStructures.Array\DataStructures.Array.csproj", "{BB580281-7121-4799-B5EB-4B8C484DC9E7}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +35,10 @@ Global
 		{25DD2B18-19C7-4BBF-A991-6304015E698C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{25DD2B18-19C7-4BBF-A991-6304015E698C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{25DD2B18-19C7-4BBF-A991-6304015E698C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BB580281-7121-4799-B5EB-4B8C484DC9E7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BB580281-7121-4799-B5EB-4B8C484DC9E7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BB580281-7121-4799-B5EB-4B8C484DC9E7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BB580281-7121-4799-B5EB-4B8C484DC9E7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
