@@ -10,11 +10,26 @@ namespace DataStructures.LinkedList.DoublyLinkedList.Add
     {
         Node head;
         Node tail;
-
         public Liste()
         {
             head = null; 
             tail = null;
+        }
+        public void Push(int data) /* Başa ekleme */
+        {
+            Node eleman = new Node(data);
+
+            if(head== null)
+            {
+                head = tail= eleman;
+                Console.WriteLine("Liste oluşturuldu.İlk eleman eklendi");
+            }
+            else
+            {
+                eleman.next = head;
+                head = eleman;
+                Console.WriteLine("Listenin başına eleman eklendi");
+            }
         }
     }
 }
