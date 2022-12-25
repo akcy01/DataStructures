@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace DataStructures.LinkedList.DoublyLinkedList.Add
+namespace DataStructures.LinkedList.DoublyLinkedList.Deletion
 {
     public class Liste
     {
@@ -47,6 +47,42 @@ namespace DataStructures.LinkedList.DoublyLinkedList.Add
                 eleman.prev = tail;
                 tail = eleman;
                 Console.WriteLine("Listenin sonuna eleman eklendi");
+            }
+        }
+        public void DeleteBeginning()
+        {
+            if(head == null)
+            {
+                Console.WriteLine("Liste boş");
+            }
+            else if (head.next==null)
+            {
+                head = tail = null;
+                Console.WriteLine("Listede kalan son düğüm de silindi.");
+            }
+            else
+            {
+                head = head.next;
+                head.prev = null;
+                Console.WriteLine("Baştan eleman silindi");
+            }
+        }
+        public void DeleteEnd()
+        {
+            if (head == null)
+            {
+                Console.WriteLine("Liste boş");
+            }
+            else if (head.next == null)
+            {
+                head = tail = null;
+                Console.WriteLine("Listede kalan son düğüm de silindi.");
+            }
+            else
+            {
+                tail = tail.prev;
+                tail.next = null;
+                Console.WriteLine("Sondan eleman silindi");
             }
         }
     }

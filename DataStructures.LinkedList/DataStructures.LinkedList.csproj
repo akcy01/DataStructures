@@ -16,8 +16,4 @@
     <WarningLevel>0</WarningLevel>
   </PropertyGroup>
 
-  <ItemGroup>
-    <Folder Include="DoublyLinkedList\Deletion\" />
-  </ItemGroup>
-
 </Project>
