@@ -49,5 +49,29 @@ namespace DataStructures.LinkedList.DoublyLinkedList.Add
                 Console.WriteLine("Listenin sonuna eleman eklendi");
             }
         }
+        public void AddMiddle(int data,int index) /* Araya ekleme */
+        {
+            Node eleman = new Node(data);
+
+            if (head == null && index == 0)
+            {
+                head = tail = eleman;
+                Console.WriteLine("Liste oluşturuldu.İlk eleman eklendi");
+            }
+            else if(head !=null && index == 0)
+            {
+               Push(data);
+            }
+            else
+            {
+                Node temp = head;
+                while(temp.next != null)
+                {
+
+                }
+
+                Console.WriteLine("Araya eleman eklendi.");
+            }
+        }
     }
 }
