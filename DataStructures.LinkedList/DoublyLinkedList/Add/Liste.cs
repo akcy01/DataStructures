@@ -96,7 +96,7 @@ namespace DataStructures.LinkedList.DoublyLinkedList.Add
                     Console.WriteLine("Araya eleman eklendi.");
                 }
             }
-            if(sonuc == false)
+            if(sonuc == false) /* Validasyon işlemi */
             {
                 Console.WriteLine("Hatalı index seçimi yaptınız.");
             }
