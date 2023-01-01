@@ -85,5 +85,45 @@ namespace DataStructures.LinkedList.DoublyLinkedList.Deletion
                 Console.WriteLine("Sondan eleman silindi");
             }
         }
+        public void DeleteMiddle(int index)
+        {
+            if (head == null)
+            {
+                Console.WriteLine("Liste boş");
+            }
+            else if (head.next == null && index == 0)
+            {
+                head = tail = null;
+                Console.WriteLine("Listede kalan son düğüm de silindi.");
+            }
+            else if (head.next != null && index == 0)
+            {
+                DeleteBeginning();
+            }
+            else
+            {
+                int i = 0;
+                Node temp = head;
+                Node temp2 = temp;
+                while (temp.next != null) 
+                {
+                    if(i == index)
+                    {
+                        temp2.next = temp.next;
+                        temp.next.prev = temp2;
+                        Console.WriteLine("Aradan düğüm silindi");
+                        i++;
+                        break;
+                    }
+                    temp2 = temp;
+                    temp = temp.next;
+                    i++;
+                }
+                if(i == index)
+                {
+                    DeleteEnd();
+                }
+            }
+        }
     }
 }
