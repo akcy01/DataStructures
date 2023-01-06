@@ -16,4 +16,8 @@
     <WarningLevel>0</WarningLevel>
   </PropertyGroup>
 
+  <ItemGroup>
+    <Folder Include="CircularLinkedList\SinglyCircular\Deletion\" />
+  </ItemGroup>
+
 </Project>

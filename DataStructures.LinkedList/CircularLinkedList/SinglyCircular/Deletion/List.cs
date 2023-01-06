@@ -9,7 +9,7 @@ using DataStructures.LinkedList.CircularLinkedList;
 using DataStructures.LinkedList.CircularLinkedList.SinglyCircular;
 using DataStructures.LinkedList.CircularLinkedList.SinglyCircular.Add;
 
-namespace DataStructures.LinkedList.CircularLinkedList.SinglyCircular.Add
+namespace DataStructures.LinkedList.CircularLinkedList.SinglyCircular.Deletion
 {
     public class List
     {
