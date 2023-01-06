@@ -56,5 +56,47 @@ namespace DataStructures.LinkedList.CircularLinkedList.SinglyCircular.Deletion
             }
 
         }
+        public void DeleteBeginning()
+        {
+            if(head == null)
+            {
+                Console.WriteLine("Liste BOŞ");
+            }
+            else if(head == tail)
+            {
+                head = tail = null;
+                Console.WriteLine("Liste boşaldı");
+            }
+            else
+            {
+                head = head.next;
+                tail.next = head;
+                Console.WriteLine("Baştan eleman silindi");
+            }
+        }
+        public void DeleteEnd()
+        {
+            if (head == null)
+            {
+                Console.WriteLine("Liste BOŞ");
+            }
+            else if (head == tail)
+            {
+                head = tail = null;
+                Console.WriteLine("Liste boşaldı");
+            }
+            else
+            {
+                Node temp = head;
+                while(temp.next != tail) 
+                {
+                    temp = temp.next;
+                }
+                temp.next = null;
+                tail = temp;
+                temp.next = head;
+                Console.WriteLine("Sondan eleman silindi");
+            }
+        }
     }
 }
