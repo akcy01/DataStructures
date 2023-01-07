@@ -54,7 +54,46 @@ namespace DataStructures.LinkedList.CircularLinkedList.SinglyCircular.Add
                 tail.next = head;
                 Console.WriteLine("Sona eleman eklendi");
             }
-
+        }
+        public void AddMiddle(int data,int index)
+        {
+            Node eleman = new Node(data);
+            if (head == null && index == 0)
+            {
+                head = tail = eleman;
+                tail.next = head;
+                Console.WriteLine("Liste oluşturuldu ilk eleman eklendi");
+            }
+            else if (head == null && index == 0)
+            {
+                Push(data);
+            }
+            else
+            {
+               Node temp = head;
+               Node temp2 = temp;
+               int i = 0;
+               while(temp != tail)
+               {
+                    if(i == index)
+                    {
+                        temp2.next= eleman;
+                        eleman.next = temp;
+                        Console.WriteLine("araya eklendi");
+                        i++;
+                        break;
+                    }
+                    temp2 = temp;
+                    temp = temp.next;
+                    i++;
+               }
+                if (i == index)
+                {
+                    temp2.next= eleman;
+                    eleman.next = temp;
+                    Console.WriteLine("Liste oluşturuldu ilk eleman eklendi");
+                }
+            }
         }
     }
 }
