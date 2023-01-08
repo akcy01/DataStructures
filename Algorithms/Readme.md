@@ -121,3 +121,22 @@ Hashing Nedir?
 
  Devamı aşağıdaki link de güzel bir kaynak
  https://tr.ilusionity.com/1027-divide-and-conquer-algorithm-meaning-explained-with-examples
+
+
+
+ 8-)GREEDY (AÇGÖZLÜ) ALGORITMALARI
+ Sonraki adım üzerinde durulmadan ve hesaba katılmadan optimal çözüm arayışında mevcut şartlar üzerinden yaklaşımda bulunmaya greedy yani açgözlü algoritma denir. Amacı en iyi çözümü top down yaklaşım ile modellemektir.
+ Ağaç veri yapısıyla kullanılır.
+ Çözüm bulmak istediğimiz problemin odak noktasına göre elimizdeki set öncelikle sortlanmalıdır. Sortlanan bu set üzerinden problemin odağına göre set tamamından azaltarak dibe doğru gidercesine tekrarlı halde işlem yapılmalıdır. Örneğin maximum gelir elde edilebilecek halde çanta doldurma istendiyse, ürünler değerleri en yüksekten aza doğru sıralanır ve sıradan çantaya kapasitemiz bazında doldurulmaya başlanır.Örneğin aktivite sıralaması istendiyse aktiviteler bitiş sürelerine göre sortlanabilir bu bağlamda öncelikli olanlar erken bitiş süreleri olanlar olacağı için bitiş süresi en erkenden en geç olana doğru sıralama yapılabilir. Bunun için bir Açgözlü yaklaşım karar değişkeni tutulur ve işlemler yapılır, bu bağlamda bir giyim fabrikasının maksimum verimle ürün dağıtımı da modellenebilir, bir süt fabrikasının maksimum süt litresi elde etme mantığı da modellenebilir. Verileri sortladıktan/sıraladıktan sonra talep edilen kondisyon üzerinden eldeki set ile işlem yapılmalıdır.
+ En çok kullanılan Greedy algoritmaları şu şekilde söylenebilir: Knapsack, Dijkstra, Huffman, Activity Selection, Prims and Kruskal Algoritmaları.
+
+
+
+ 9-)DYNAMIC PROGRAMMING(DINAMIK PROGRAMLAMA) ALGORIRMALARI
+ Dinamik programlama, karmaşık problemlerde, o problemi kendi içerisinde tekrarlayan alt problemlere bölerek elde edilen sonuçları kaydeden, bu sonuçlarla tümdengelim-tümevarım yaklaşımlarıyla asıl problemi çözmeye yarayan bir yöntemdir. Alt problemlerin çözümünü kaydettiği için, aynı işlemlerin tekrar hesaplanması ihtiyacını ortadan kaldırarak kod maliyetini düşürür.Örneğin, Faktöriyel hesaplama işlemini düşünün. Her sayının faktöriyeli, kendisi ile birlikte 1’e kadar bütün sayıların çarpımına eşittir. Bu da aynı zamanda, bir sayının kendisi ile kendinden önceki sayının faktöriyeli çarpımına denk gelir. Dinamik programlama ile çözecek olursak, 1’den başlayarak her sayının faktöriyelini tutmak, bir sonraki sayı için sadece 2 değerin çarpımıyla sonucu elde etmemizi sağlayacaktır. Dinamik programlamanın, aşağıdan yukarıya ve yukarıdan aşağıya olarak yorumlanabilen iki metodu vardır. Brute force yinelemeli çözüm bularak başladığımız bu çözümde memoization ya da tabulation(tablo) ile yorumlayarak Dinamik Programlama ile en verimli çözümü bulmaya çalışırız.
+
+
+
+ 10-)RANDOMIZED ALGORITHMS (RASTGELE ALGORITMALARI)
+
+
