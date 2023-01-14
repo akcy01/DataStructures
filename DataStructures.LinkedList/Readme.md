@@ -15,7 +15,6 @@ işaretçisinde bağlantılı listenin ilk/baş düğümünün bağlantısını 
 SinglyLinkedList klasöründen ne olduğuna bakabilirsiniz.
 
 #LinkedList & Array Kıyaslaması 
-
 1-) Dizilerin belirli bir kapasitesi vardır. (Program başladığında belirlenir)
 	Bağlı listelerin bir kapasitesi yoktur belleğin izin verdiği miktarda büyüyebilirler.
 
