@@ -62,7 +62,7 @@ namespace DataStructures.LinkedList.CircularLinkedList.SinglyCircular.Deletion
             {
                 Console.WriteLine("Liste BOŞ");
             }
-            else if(head == tail)
+            else if(head.next == head)
             {
                 head = tail = null;
                 Console.WriteLine("Liste boşaldı");
@@ -80,7 +80,7 @@ namespace DataStructures.LinkedList.CircularLinkedList.SinglyCircular.Deletion
             {
                 Console.WriteLine("Liste BOŞ");
             }
-            else if (head == tail)
+            else if (head.next == head)
             {
                 head = tail = null;
                 Console.WriteLine("Liste boşaldı");

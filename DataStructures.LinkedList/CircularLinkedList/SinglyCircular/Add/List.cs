@@ -64,7 +64,7 @@ namespace DataStructures.LinkedList.CircularLinkedList.SinglyCircular.Add
                 tail.next = head;
                 Console.WriteLine("Liste oluşturuldu ilk eleman eklendi");
             }
-            else if (head == null && index == 0)
+            else if (head != null && index == 0)
             {
                 Push(data);
             }
@@ -91,7 +91,7 @@ namespace DataStructures.LinkedList.CircularLinkedList.SinglyCircular.Add
                 {
                     temp2.next= eleman;
                     eleman.next = temp;
-                    Console.WriteLine("Liste oluşturuldu ilk eleman eklendi");
+                    Console.WriteLine("Araya eleman eklendi");
                 }
             }
         }
