@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace DataStructures.LinkedList.CircularLinkedList.DoublyCircular.Add
+namespace DataStructures.LinkedList.CircularLinkedList.DoublyCircular.Deletion
 {
     public class List
     {
@@ -60,6 +60,44 @@ namespace DataStructures.LinkedList.CircularLinkedList.DoublyCircular.Add
                 tail.next = head;
                 head.prev = tail;
                 Console.WriteLine("Sona eleman eklendi");
+            }
+        }
+        public void DeleteBeginning()
+        {
+            if(head == null)
+            {
+                Console.WriteLine("Liste boş");
+            }
+            else if(head.next == head)
+            {
+                head = tail = null;
+                Console.WriteLine("Eleman silindi listede eleman kalmadı");
+            }
+            else
+            {
+                head = head.next;
+                head.prev = tail;
+                tail.next = head;
+                Console.WriteLine("Baştan eleman silindi");
+            }
+        }
+        public void DeleteEnd()
+        {
+            if (head == null)
+            {
+                Console.WriteLine("Liste boş");
+            }
+            else if (head.next == head)
+            {
+                head = tail = null;
+                Console.WriteLine("Eleman silindi listede eleman kalmadı");
+            }
+            else
+            {
+                tail = tail.prev;
+                tail.next = head;
+                head.prev = tail;
+                Console.WriteLine("Sondan eleman silindi");
             }
         }
     }

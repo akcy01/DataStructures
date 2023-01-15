@@ -62,5 +62,53 @@ namespace DataStructures.LinkedList.CircularLinkedList.DoublyCircular.Add
                 Console.WriteLine("Sona eleman eklendi");
             }
         }
+        public void AddMiddle(int index,int data) /* Araya ekleme */
+        {
+            Node eleman = new Node(data);
+
+            if (head == null && index == 0)
+            {
+                head = tail = eleman;
+                tail.next = head;
+                tail.prev = head;
+                head.next = tail;
+                head.prev = tail;
+                Console.WriteLine("Liste yapısı oluşturuldu, ilk eleman eklendi.");
+            }
+            else if(head != null && index == 0)
+            {
+                Push(data);
+            }
+            else
+            {
+                int i = 0;
+                Node temp = head;
+                Node temp2 = temp;
+                while (temp != tail)
+                {
+                    if(i == index)
+                    {
+                        temp2.next = eleman;
+                        eleman.prev = temp2;
+                        eleman.next = temp;
+                        temp.prev = eleman;
+                        Console.WriteLine("Araya eleman eklendi");
+                        i++;
+                        break;
+                    }
+                    temp2 = temp;
+                    temp = temp.next;
+                    i++;
+                }
+                if (i == index)
+                {
+                    temp2.next = eleman;
+                    eleman.prev = temp2;
+                    eleman.next = temp;
+                    temp.prev = eleman;
+                    Console.WriteLine("Araya eleman eklendi");
+                }
+            }
+        }
     }
 }
