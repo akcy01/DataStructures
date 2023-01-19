@@ -3,3 +3,6 @@ Stack işlemlerin gerçekleştiği belirli bir sırayı izleyen doğrusal bir ve
 
 Push() => stack'e veri ekleme.
 Pop()  => stack'den veri silme.
+
+#Stack'in Başı Ne Demek ? 
+Stack3 isimli görseli incelemenizi öneririm.Yığındaki öğelere erişilen,eklenen ve silinen işaretçiye yığının tepesi denmektedir.Yığının en üst öğesinin işaretçisidir.
