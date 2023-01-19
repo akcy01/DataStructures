@@ -1,0 +1,2 @@
+﻿#Stack Nedir ? 
+Stack işlemlerin gerçekleştiği belirli bir sırayı izleyen doğrusal bir veri yapısıdır.Son giren ilk çıkar veya ilk giren son çıkar.Yığında tüm ekleme ve silme işlemlerine listenin yalnızca bir ucundan izin verilir.Yığının gerçek hayatta bir çok örneği vardır.Üst üste dizilmiş tabakları düşünelim.En üstteki tabak ilk yıkanır.Stack'da da durum böyledir.
