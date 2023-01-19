@@ -6,3 +6,10 @@ Pop()  => stack'den veri silme.
 
 #Stack'in Başı Ne Demek ? 
 Stack3 isimli görseli incelemenizi öneririm.Yığındaki öğelere erişilen,eklenen ve silinen işaretçiye yığının tepesi denmektedir.Yığının en üst öğesinin işaretçisidir.
+
+#Stack2 Görseli Bize Ne anlatıyor?
+Görmüş olduğumuz stack yapısını bir kutu gibi düşünelim.Verilerimizi kutuya dizer gibi diziyoruz.En üstteki düğüm top'tır ve next'i 4'ü göstermektedir.Hepsinin next'i bir altındakini göstermektedir.En sondaki düğümün yani taban düğümünün next'i null'ı göstermektedir.Bildiğimiz linkedlist yapısının biraz özelleştirilmiş halidir diyebiliriz.En üstteki düğüme her zaman top diyeceğiz unutmamak lazım!!
+
+
+
+!!!Stack veri yapısının örneğini linkedList'leri kullanarak yapacağım.Stack veri yapısı linkedlistlere çok benzemektedir zaten.
