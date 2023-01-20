@@ -23,8 +23,25 @@ namespace DataStructures.Stack
             }
             else
             {
-
+                eleman.next = top;
+                top = eleman;
+                Console.WriteLine("Eleman eklendi");
             }
         } 
+        public int Pop() /* Çıkarma */
+        {
+            if(top == null)
+            {
+                Console.WriteLine("Stack boş");
+                return -1;
+            }
+            else
+            {
+                int sayi = top.data;
+                top = top.next;
+                Console.WriteLine("Sayı stack'den çıkartıldı.");
+                return sayi;
+            }
+        }
     }
 }
