@@ -43,5 +43,20 @@ namespace DataStructures.Stack
                 return sayi;
             }
         }
+        public void Peek() /* Tepe elemanının döndürülmesi */
+        {
+            if(top == null)
+            {
+                Console.WriteLine("Stack boş");
+            }
+            else
+            {
+                Console.WriteLine(top.data);
+            }
+        }
+        public void Print() /* Yazdırma işlemi */
+        {
+
+        }
     }
 }
