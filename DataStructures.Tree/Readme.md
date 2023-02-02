@@ -47,3 +47,10 @@ Son seviye dışındaki tüm seviyelerin tam (full) olduğu ikili ağaç türüd
 Devamı için 
 
 https://nerdbook.wordpress.com/2018/03/28/agac-veri-yapisi/ çok güzel bir kaynak.
+
+
+#Ağacın Yüksekliğini ve Ağacın Eleman Sayısını Bulma
+
+İlgili çalışmayı FindNumberOfElements folder'ının altında bulabilirsiniz.
+En altta kalan yaprak düğümün köke olan uzaklığı yüksekliktir !!
+

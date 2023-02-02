@@ -38,5 +38,32 @@ namespace DataStructures.Tree
             }
             return root;
         }
+        public void preOrder(Node root) /* Agac uzerinde dolasma */
+        {
+            if(root != null)
+            {
+                Console.WriteLine(root.data);
+                preOrder(root.left);
+                preOrder(root.right);
+            }
+        }
+        public void inOrder(Node root) /* Agac uzerinde dolasma */
+        {
+            if (root != null)
+            {
+                inOrder(root.left);
+                Console.WriteLine(root.data);
+                inOrder(root.right);
+            }
+        }
+        public void postOrder(Node root) /* Agac uzerinde dolasma */
+        {
+            if (root != null)
+            {
+                postOrder(root.left); 
+                postOrder(root.right);
+                Console.WriteLine(root.data);
+            }
+        }
     }
 }
