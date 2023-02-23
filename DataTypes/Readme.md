@@ -29,6 +29,8 @@ struct ogrenci
 }
 
 
+
+
 #Struct Ve Class Farkları 
 
 Yapılar, sınıflar ile büyük benzerlik gösterirler. Sınıflar gibi tanımlanırlar ve sınıflar gibi, özellikler, metotlar, veriler, yapıcılar vb. içerebilirler. Bu benzerliklere karşın yapılar ile sınıflar arasında çok önemli farklılıklar da vardır :
