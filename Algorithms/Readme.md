@@ -10,6 +10,10 @@ Tasarlanan Algoritma dilden bağımsızdır, yani herhangi bir dilde uygulanabil
 
 
 
+#################################################################################################################
+
+
+
 
 #Algoritma Özellikleri Nelerdir ? 
 
@@ -31,6 +35,10 @@ Algoritma, mevcut kaynaklarla yürütülebilmesi için basit, genel ve pratik ol
 6-) Dilden Bağımsız
 Tasarlanan algoritma dilden bağımsız olmalıdır.Yani herhangi bir dilde uygulanabilen yalnızca basit talimatlar olmalıdır.Çıktı her dil için aynı olmalıdır.
 
+
+
+
+#################################################################################################################
 
 
 
