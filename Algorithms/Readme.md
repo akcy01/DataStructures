@@ -51,18 +51,27 @@ Kaba kuvvet algoritması, isminden de anlaşılacağı üzere çok zeki olmayan 
 Örneğin 5^5’i brute force yaklaşımı ile aşağıdaki gibi 4 çarpma işlemi yaparak buluruz.
 5^5 = 5x5x5x5x5
 
-#################################################################################################################
+
+###########################################################################################################
+###########################################################################################################
+
 
 2-)RECURSION ALGORITMASI
 Bir problemin alt problemlere bölünüp hesaplanmasına, nerde son bulacağımı belirttiğimiz ifadelere recursion (Özyineleme) diyoruz.En genel anlamı ise bir yapının (kendi kendine) yinelenmesidir.Özyinelemeli bir işlev, kendisinin bir kopyasını çağırarak ve orijinal problemlerin daha küçük alt problemlerini çözerek belirli bir problemi çözer.
 
-#################################################################################################################
+
+###########################################################################################################
+###########################################################################################################
+
 
 3-)BACKTRACKING ALGORITMASI
 Geri izleme, herhangi bir zamanda sorunun kısıtlamalarını karşılamayan çözümleri ortadan kaldırarak, her seferinde tek parça bir çözüm oluşturmaya çalışarak sorunları özyinelemeli olarak çözmeye yönelik algoritmik bir tekniktir (burada zamana göre, arama ağacının herhangi bir seviyesine ulaşana kadar geçen süre).
 Örneğin, SudoKo çözme Problemini ele alalım, rakamları birer birer doldurmaya çalışıyoruz. Mevcut rakamın bir çözüme yol açamayacağını anladığımızda, onu kaldırırız (geri izleme) ve bir sonraki haneyi deneriz. Bu, saf yaklaşımdan (tüm olası rakam kombinasyonlarını oluşturmak ve ardından her kombinasyonu tek tek denemek) daha iyidir, çünkü geri gittiğinde bir dizi permütasyon düşürür.
 
-#################################################################################################################
+
+###########################################################################################################
+###########################################################################################################
+
 
 4-)SEARCHING ALGORITMALARI
 Arama algoritmaları adından da anlaşılacağı gibi, bir veri yapısı(data structure) üzerinde belirli bir verinin aranması için kullanılan algoritmalar bütünüdür. Bu veri yapısı bir liste, array ya da graph olabilir. Belirli durumlara özgü farklı arama algoritmaları geliştirilmiştir ve hepsinin birbirine göre farklı avantajları ve farklı çalışma süreleri vardır.Genel olarak bir liste ya da dizi üzerinde arama yapacaksanız iki temel kategori bulunmakta. Bunlardan biri Sequential(Sıralı/Ardışık) Search, diğeri ise Interval(Aralıklı) Search. Bunların altında da farklı algoritmalar geliştirilmiştir. Bunlardan en basit ve anlaşılır olanlardan ikisi de Linear Search ve Binary Search.
@@ -77,7 +86,10 @@ Bu arama algoritması en basit ve çalışma zamanı olarak en kötü algoritmal
 **Binary Search
 Binary Search, sıralı(sorted) bir veri yapısı için kullanılır. Yani algoritmaya aranan veri ve sıralı bir veri yapısı verirsiniz. Algoritma da size önceki örnekteki gibi eğer bulunursa aranan verinin indeksini döner. Bunun için önce elimizdeki verinin sıralanması gerekir. Bunun bir sorting algoritması kullanırsınız.Binary Search çalışma zamanı olarak Linear Search’den daha iyidir. Her iterasyonda arama uzayını yarıya indirmek üzere tasarlanmıştır. Öncelikle dizinin ortasındaki değeri aranan değer ile karşılaştırır. Eğer aranan değer ortanca değerden küçükse dizinin ikinci yarısını görmezden gelerek ilk yarısında aramaya devam eder. Daha sonra tekrar ilk yarının ortanca değeri ile karşılaştırır. Eğer aranan değer ortanca değerden küçükse sol yarı, büyükse sağ yarı ile devam eder. Bu şekilde aranan değeri bulana kadar sürer. Aranan değer ilk iterasyonda da bulunabilir son iterasyonda da. Ancak Linear Search’den farklı olarak her bir elemanı gezmediği için aranan değeri daha hızlı bulacaktır. 
 
-#################################################################################################################
+
+###########################################################################################################
+###########################################################################################################
+
 
 5-)SIRALAMA ALGORITMALARI	
 Sıralama algoritmaları kullanmamızdaki amaç, algoritmanın isminden de anlaşılacağı üzere sahip olduğumuz veriyi en hızlı şekilde büyükten küçüğe ya da küçükten büyüğe bir sıraya sokmak. Bunun için kullanılan bir çok sıralama algoritması vardır.Bazı sıralama algoritmalarını açıklayalım ==
@@ -101,7 +113,10 @@ Verinin hafızada sıralı tutulması için geliştirilen sıralama algoritmalar
 -Bu alt dizilerden yukarıdaki gibi pivot elemanları seçip aynı işlemi uygula. İç içe en küçük parçalara ulaşana kadar bu yöntemi sürdür.
 -Oluşan dizicikleri birleştir.
 
-#################################################################################################################
+
+###########################################################################################################
+###########################################################################################################
+
 
 6-)HASHING ALGORITMALARI
 Hashing’in temel fikri, elimdeki veriyi sistematik olarak yerleştireyim ki, aradığımda direkt adrese bakayım şeklindedir. Mesela evinizde bir dolap olsun, dolaplarda da gözler olsun. Siz bir eşyayı aradığınızda tüm gözlere tek tek mi bakarsınız yoksa hangi gözde hangi eşyanız var bilir de direkt olarak hedefe mi yönlenirsiniz? İşte Hashing Veri Yapısındaki temel fikir de budur. Ancak bilgisayar dünyasındaki temel sorun, bu dünyanın sürekli dinamik olması ve ekleme & çıkarma işlemlerinin sık sık yapılması kaynaklıdır.
@@ -123,7 +138,10 @@ Hashing Nedir?
 	Devamı aşağıdaki link de.Güzel bir kaynak.
 	https://yazilimdnyasi.wordpress.com/2020/02/14/hashing-nedir-veri-yapilari/  
 	
-#################################################################################################################
+
+###########################################################################################################
+###########################################################################################################
+
 
 7-)DIVIDE AND CONQUER (Böl Ve Yönet) ALGORITMALARI
  Tipik bir Böl ve Yönet algoritması, aşağıdaki üç adımı kullanarak bir sorunu çözer.
@@ -137,7 +155,10 @@ Hashing Nedir?
  Devamı aşağıdaki link de güzel bir kaynak
  https://tr.ilusionity.com/1027-divide-and-conquer-algorithm-meaning-explained-with-examples
 
-#################################################################################################################
+
+###########################################################################################################
+###########################################################################################################
+
 
  8-)GREEDY (AÇGÖZLÜ) ALGORITMALARI
  Sonraki adım üzerinde durulmadan ve hesaba katılmadan optimal çözüm arayışında mevcut şartlar üzerinden yaklaşımda bulunmaya greedy yani açgözlü algoritma denir. Amacı en iyi çözümü top down yaklaşım ile modellemektir.
@@ -145,12 +166,18 @@ Hashing Nedir?
  Çözüm bulmak istediğimiz problemin odak noktasına göre elimizdeki set öncelikle sortlanmalıdır. Sortlanan bu set üzerinden problemin odağına göre set tamamından azaltarak dibe doğru gidercesine tekrarlı halde işlem yapılmalıdır. Örneğin maximum gelir elde edilebilecek halde çanta doldurma istendiyse, ürünler değerleri en yüksekten aza doğru sıralanır ve sıradan çantaya kapasitemiz bazında doldurulmaya başlanır.Örneğin aktivite sıralaması istendiyse aktiviteler bitiş sürelerine göre sortlanabilir bu bağlamda öncelikli olanlar erken bitiş süreleri olanlar olacağı için bitiş süresi en erkenden en geç olana doğru sıralama yapılabilir. Bunun için bir Açgözlü yaklaşım karar değişkeni tutulur ve işlemler yapılır, bu bağlamda bir giyim fabrikasının maksimum verimle ürün dağıtımı da modellenebilir, bir süt fabrikasının maksimum süt litresi elde etme mantığı da modellenebilir. Verileri sortladıktan/sıraladıktan sonra talep edilen kondisyon üzerinden eldeki set ile işlem yapılmalıdır.
  En çok kullanılan Greedy algoritmaları şu şekilde söylenebilir: Knapsack, Dijkstra, Huffman, Activity Selection, Prims and Kruskal Algoritmaları.
 
- #################################################################################################################
+
+###########################################################################################################
+###########################################################################################################
+
 
  9-)DYNAMIC PROGRAMMING(DINAMIK PROGRAMLAMA) ALGORIRMALARI
  Dinamik programlama, karmaşık problemlerde, o problemi kendi içerisinde tekrarlayan alt problemlere bölerek elde edilen sonuçları kaydeden, bu sonuçlarla tümdengelim-tümevarım yaklaşımlarıyla asıl problemi çözmeye yarayan bir yöntemdir. Alt problemlerin çözümünü kaydettiği için, aynı işlemlerin tekrar hesaplanması ihtiyacını ortadan kaldırarak kod maliyetini düşürür.Örneğin, Faktöriyel hesaplama işlemini düşünün. Her sayının faktöriyeli, kendisi ile birlikte 1’e kadar bütün sayıların çarpımına eşittir. Bu da aynı zamanda, bir sayının kendisi ile kendinden önceki sayının faktöriyeli çarpımına denk gelir. Dinamik programlama ile çözecek olursak, 1’den başlayarak her sayının faktöriyelini tutmak, bir sonraki sayı için sadece 2 değerin çarpımıyla sonucu elde etmemizi sağlayacaktır. Dinamik programlamanın, aşağıdan yukarıya ve yukarıdan aşağıya olarak yorumlanabilen iki metodu vardır. Brute force yinelemeli çözüm bularak başladığımız bu çözümde memoization ya da tabulation(tablo) ile yorumlayarak Dinamik Programlama ile en verimli çözümü bulmaya çalışırız.
 
- #################################################################################################################
+
+###########################################################################################################
+###########################################################################################################
+
 
  10-)RANDOMIZED ALGORITHMS (RASTGELE ALGORITMALARI)
 
