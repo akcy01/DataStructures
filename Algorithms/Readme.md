@@ -1,10 +1,14 @@
 ﻿#Algoritma Nedir ? 
 
+
 Algoritma kelimesi , " Hesaplamalarda veya diğer problem çözme işlemlerinde izlenecek bir dizi kural " veya " Matematiksel bir problemi, sıklıkla özyinelemeli işlemlerle sonlu sayıda adımda çözme prosedürü " anlamına gelir. 
 Bu nedenle Algoritma, belirli bir sorunu çözmek için bir dizi sonlu adıma atıfta bulunur.
 Algoritmaya bir problemi çözmek için izlediğimiz yol diyebiliriz.
 Algoritmalar, neyi çözmek istediğinize bağlı olarak basit ve karmaşık olabilir.
 Tasarlanan Algoritma dilden bağımsızdır, yani herhangi bir dilde uygulanabilecek basit talimatlardır ve yine de çıktısı beklendiği gibi aynı olacaktır.
+
+
+
 
 
 #Algoritma Özellikleri Nelerdir ? 
@@ -26,6 +30,9 @@ Algoritma, mevcut kaynaklarla yürütülebilmesi için basit, genel ve pratik ol
 
 6-) Dilden Bağımsız
 Tasarlanan algoritma dilden bağımsız olmalıdır.Yani herhangi bir dilde uygulanabilen yalnızca basit talimatlar olmalıdır.Çıktı her dil için aynı olmalıdır.
+
+
+
 
 
 #Algoritma Türleri Nelerdir ?
