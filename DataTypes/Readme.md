@@ -1,5 +1,6 @@
 ﻿#Veri Türleri Nedir
 
+
 Veri türleri ikiye ayrılır.Bunlar Yerleşik Veri Türleri Ve Kullanıcı Taraflı Veri Türleri olarak ikiye ayrılır.
 
 1-)YERLESIK VERI TURLERI 
@@ -9,6 +10,8 @@ object => int,bool,double vs vs vs. Bunlar temel türlerdir.
 2-)KULLANICI TARAFLI VERI TURLERI
 
 Bunlar da struct ve class olarak ikiye ayrılır.Class'lar referans tiplidir.Struct'lar ise değer tiplidir.
+
+
 
 
 #Struct Nedir ? 
