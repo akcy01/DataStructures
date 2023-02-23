@@ -1,6 +1,5 @@
 ﻿#Veri Türleri Nedir
 
------------------------------------------------------------------------------------------------------------------
 
 Veri türleri ikiye ayrılır.Bunlar Yerleşik Veri Türleri Ve Kullanıcı Taraflı Veri Türleri olarak ikiye ayrılır.
 
@@ -12,12 +11,12 @@ object => int,bool,double vs vs vs. Bunlar temel türlerdir.
 
 Bunlar da struct ve class olarak ikiye ayrılır.Class'lar referans tiplidir.Struct'lar ise değer tiplidir.
 
-
+-----------------------------------------------------------------------------------------------------------------
 
 
 #Struct Nedir ? 
 
------------------------------------------------------------------------------------------------------------------
+
 
  Birbirleriyle ilişkili değişkenlerin, bir isim altında toplanmasına yapı adı verilir. Yapılar, değişik veri tiplerinde elemanlar içerebilirler ve dosya içinde tutulacak kayıtları oluşturmakta kullanılırlar.
 
@@ -31,12 +30,12 @@ struct ogrenci
      public short sinif;
 }
 
-
+-----------------------------------------------------------------------------------------------------------------
 
 
 #Struct Ve Class Farkları 
 
------------------------------------------------------------------------------------------------------------------
+
 
 Yapılar, sınıflar ile büyük benzerlik gösterirler. Sınıflar gibi tanımlanırlar ve sınıflar gibi, özellikler, metotlar, veriler, yapıcılar vb. içerebilirler. Bu benzerliklere karşın yapılar ile sınıflar arasında çok önemli farklılıklar da vardır :
 
@@ -46,3 +45,6 @@ Yapılar, sınıflar ile büyük benzerlik gösterirler. Sınıflar gibi tanıml
 4-) Bir sınıf oluşturulduğunda, bu, başka bir temel sınıftan kalıtım yolu ile türetilebilir ancak bir yapı başka bir yapı temel alınarak türetilemez.
 
  Yapıların kullanımı, verimlilik ve performans açısından önemlidir. Yapılar, bir değer tipi oldukları için, bir referans aracılığıyla değil de doğrudan kendi üzerlerinde işlem görürler. Böylece, bir yapı, ayrı bir referans değişkeni gerektimez. Bu, bazı durumlarda daha az bellek kullanıldığı anlamına gelir. Üstelik, bir yapı, doğrudan erişilebildiği için, sınıf nesnelerinin erişimlerine özgü performans kaybına da maruz kalmaz. Sınıflar bir referans tipidir. Bu nedenle, sınıf nesnelerine yapılan tüm erişimler bir referans aracılığıyla olmalıdır. Bu tür bir dolaylı erişim, erişimlerin her birine ek bir yük bindirir. Yapılar böyle bir yükün altına girmezler. Genel olarak, birbirleriyle bağlantılı küçük bir veri grubu saklaması istenildiğinde ve kalıtıma ihtiyaç yoksa ya da referans tiplerinin sağladığı diğer avantajlardan yararlanılmak istenmiyorsa, yapı tipini kullanmak daha uygun bir tercih olacaktır.
+
+
+ -----------------------------------------------------------------------------------------------------------------
