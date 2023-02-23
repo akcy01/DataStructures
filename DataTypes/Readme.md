@@ -16,6 +16,7 @@ Bunlar da struct ve class olarak ikiye ayrılır.Class'lar referans tiplidir.Str
 
 #Struct Nedir ? 
 
+
  Birbirleriyle ilişkili değişkenlerin, bir isim altında toplanmasına yapı adı verilir. Yapılar, değişik veri tiplerinde elemanlar içerebilirler ve dosya içinde tutulacak kayıtları oluşturmakta kullanılırlar.
 
 Yapılar, diğer tipte nesneler kullanılarak oluşturulan, türetilmiş veri tipleridir. Örnek bir yapı şu şekilde oluşturulabilir :
@@ -32,6 +33,7 @@ struct ogrenci
 
 
 #Struct Ve Class Farkları 
+
 
 Yapılar, sınıflar ile büyük benzerlik gösterirler. Sınıflar gibi tanımlanırlar ve sınıflar gibi, özellikler, metotlar, veriler, yapıcılar vb. içerebilirler. Bu benzerliklere karşın yapılar ile sınıflar arasında çok önemli farklılıklar da vardır :
 
