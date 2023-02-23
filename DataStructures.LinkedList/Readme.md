@@ -1,9 +1,13 @@
 ﻿# LinkedList Nedir ? 
+
+
  Diziler gibi, Bağlantılı Liste de doğrusal bir veri yapısıdır. Dizilerden farklı olarak, bağlantılı liste öğeleri bitişik bir konumda depolanmaz; elemanlar işaretçiler kullanılarak bağlanır. Bir dizi bağlantılı düğüm içerirler. Burada her düğüm, bir sonraki düğümün verilerini ve adresini depolar.Dizilerden farklı olarak önceden bellek tahsisini engeller.Sabit zamanda genişletilebilir.
 
  -----------------------------------------------------------------------------------------------------------------
 
 # Bağlantılı Liste Türleri(LinkedList) ?
+
+
 Basit Bağlantılı Liste(SinglyLinkedList) => Bu tür bağlantılı listede, bağlantılı listeyi yalnızca bir yönde hareket ettirebilir veya çapraz
 hareket ettirebilirsiniz.
 
@@ -16,11 +20,15 @@ işaretçisinde bağlantılı listenin ilk/baş düğümünün bağlantısını 
 -----------------------------------------------------------------------------------------------------------------
 
 #Bağlantılı Liste Yapısı (SinglyLinkedList)
+
+
 SinglyLinkedList klasöründen ne olduğuna bakabilirsiniz.
 
 -----------------------------------------------------------------------------------------------------------------
 
 #LinkedList & Array Kıyaslaması 
+
+
 1-) Dizilerin belirli bir kapasitesi vardır. (Program başladığında belirlenir)
 	Bağlı listelerin bir kapasitesi yoktur belleğin izin verdiği miktarda büyüyebilirler.
 
