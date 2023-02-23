@@ -34,3 +34,5 @@ Average-case: Bu case, verilen input setindeki değerlerin dizi içerisindeki da
 Worst-case: Bu örneğimiz için worst-case, yani en kötü durum senaryosu, aradığımız değerin dizinin en sondaki değer olması durumudur. Bu örnek için bu değer 7'dir.
 
 Worst-case: Aradığımız değerin dizi içerisinde bulunmaması durumu da worst-case'e örnektir.
+
+-----------------------------------------------------------------------------------------------------------------
