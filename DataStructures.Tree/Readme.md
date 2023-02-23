@@ -9,11 +9,15 @@ Derinlik (Depht): Bir düğümün köke olan uzaklığı derinliktir. Kök düğ
 Yükseklik (Height): Bir düğümün kendi silsilesinden en uzak yaprak düğüme olan uzaklığıdır. Yaprak düğümlerin yüksekliği =0 (kök yüksekliği = ağaç yüksekliği)
 Yol (Path): Bir düğümün aşağıya doğru (çocukları üzerinden) bir başka düğüme gidebilmek için üzerinden geçilmesi gereken düğümlerin listesidir.
 
+-----------------------------------------------------------------------------------------------------------------
+
 #AğaçVeriYapısı1 Görseli İçin
 A düğümü kök olmak üzere 7 düğümden (n) oluşmaktadır.
 Toplam 6 kenar (n-1) vardır.
 Sol alt ağaç, B köküyle başlamakta ve sağ alt ağaç da C köküyle başlamaktadır.
 A’dan solda B’ye giden ve sağda C’ye giden iki dal (branch) çıkmaktadır.
+
+-----------------------------------------------------------------------------------------------------------------
 
 #Ağaç Çeşitleri 
 
@@ -24,6 +28,8 @@ A’dan solda B’ye giden ve sağda C’ye giden iki dal (branch) çıkmaktadı
     B Ağaçları
     B+ Ağaçları
     B# Ağaçları
+
+    -----------------------------------------------------------------------------------------------------------------
 
 #İkili Ağaç Veri Yapısı 
 İkili ağaç olması için en fazla iki dal çıkmalı.!!
@@ -48,9 +54,13 @@ Devamı için
 
 https://nerdbook.wordpress.com/2018/03/28/agac-veri-yapisi/ çok güzel bir kaynak.
 
+-----------------------------------------------------------------------------------------------------------------
+
 
 #Ağacın Yüksekliğini ve Ağacın Eleman Sayısını Bulma
 
 İlgili çalışmayı FindNumberOfElements folder'ının altında bulabilirsiniz.
 En altta kalan yaprak düğümün köke olan uzaklığı yüksekliktir !!
+
+-----------------------------------------------------------------------------------------------------------------
 

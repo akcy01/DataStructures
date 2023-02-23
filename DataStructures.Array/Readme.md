@@ -6,3 +6,5 @@ En büyük dezavantajı sabit boyutlu olmasıdır.Sabit boyutlu olduğu için ek
 En büyük avantajı ise bellek gözlerine doğrudan erişiminin olmasıdır.
 
 C#'da ArrayList koleksiyonu sayesinde dizilieri dinamik bir hale getirebiliyoruz.ArrayListler içerisinde int,string vs veri tiplerini aynı anda barındırabiliyor.
+
+-----------------------------------------------------------------------------------------------------------------

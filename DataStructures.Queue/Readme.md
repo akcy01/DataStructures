@@ -15,3 +15,5 @@ Biz yapacağımız örneği linkedlist üzerinden yapacağız !!
 Sona eklersin baştan çıkarırsın temel mantık budur !!!
 
 Kodda yazmış olduğumuz next'i prev gibi düşünebilirsin!!!
+
+-----------------------------------------------------------------------------------------------------------------
