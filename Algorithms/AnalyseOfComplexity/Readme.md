@@ -11,6 +11,8 @@ Eninde sonunda algoritma bir şekilde tasarlanır ve problem çözülür. Ama he
 -----------------------------------------------------------------------------------------------------------------
 
 #Algoritmanın Performans Kriterleri Nelerdir ?
+
+
 Yukarıda da belirttiğim gibi bir problemi farklı algoritmalar tasarlayarak çözmek mümkün. Ancak bu çözümlerin birbirlerine karşı mutlaka avantajları ve dezavantajları olacaktır.
 Örneğin, hızlı çalışan bir algoritma bellekten fazla alan tüketirken, tam tersi daha az bellek tüketen bir algoritma da daha yavaş çalışır.
 
@@ -35,6 +37,8 @@ Alan (space)
 -----------------------------------------------------------------------------------------------------------------
 
 #Time Complexity(Zaman Karmaşıklığı)
+
+
 Zaman karmaşıklığı, algoritmanın yürütme zamanının derecesinin asimptotik notasyonlarla gösterilmesidir. Bir başka deyişle bir algoritmanın çalışması için gereken süredir. Bu süre ne kadar kısa olursa algoritmanın performansı o kadar iyi olur. Zaman karmaşıklığını bir algoritmanın performansı olarak düşünebiliriz.
 
 Bu süre milisaniyeleri hesaplayarak değil, yapılan işlem sayısına göre hesaplanmaktadır. Tabi ki bu hesaplama yapılırken algoritmadaki veri setinin büyüklüğüne ve sırasına dikkat edilir.
@@ -48,6 +52,8 @@ Bir bilgisayarın donanım özellikleri ne kadar iyi olursa olsun, her zaman en 
 -----------------------------------------------------------------------------------------------------------------
 
 #Space Complexity(Alan Karmaşıklığı)
+
+
 Alan karmaşıklığı, bir algoritmanın bir girdi boyutu için çıktı üretirken ihtiyaç duyduğu bellek miktarıdır. Yani buna alan maliyetini ölçmek demektir diyebiliriz.
 Daha iyi alan karmaşıklığına sahip olan algoritma bellekten daha az alan tüketir. Algoritmanın performansını artırmak için sistem belleğini artırmak ilk akla gelen çözüm olsa da, her zaman daha az alan tüketen bir algoritma tasarlamak daha mantıklıdır.
 Alan karmaşıklığı, algoritmayı çalıştıran sistem, derleyici ve programlama dili gibi çeşitli faktörlere bağlıdır. Bu yüzden algoritmanın kendisini analiz ederken bu faktörleri dikkate almamalıyız.
@@ -57,6 +63,8 @@ Ne yazık ki, algoritma performansında zaman ve alan verimliliği birbirine ter
 -----------------------------------------------------------------------------------------------------------------
 
 #Notation
+
+
 Notation, karmaşıklık analizi yapılan bir algoritmanın performansının farklı gösterimler ile temsil edilmesidir. Yukarıda da belirttiğim gibi bir algoritma girilen verilerin büyüklüğüne göre farklı performans gösterebilir.
 Örneğin, 1 Kb lık veriden çıktı üreten algoritma hızlı çalışırken, aynı algoritmaya 1 mb veri girildiğinde çıktıyı daha yavaş üretebilir. Bu nedenle, olabilecek tüm durumların karmaşıklığını analiz etmemiz gerekiyor.
 
@@ -69,6 +77,8 @@ Zaman karmaşıklığında genel olarak üç temel asimptotik notasyon vardır. 
 -----------------------------------------------------------------------------------------------------------------
 
 #Best Case(En İyi Durum)
+
+
 Algoritmanın karmaşıklığı hesaplanırken en iyi sonucun elde edildiği duruma denir. Algoritmanın en az adımda ve zamanda çalıştığı durumdur.
 Çalışma zamanında bir alt sınırdır. Grafik gösterimlerinde alt sınır (lower bound) olarak görürüz.
 Omega notasyonu ( Ω ) da denir.
@@ -76,12 +86,16 @@ Omega notasyonu ( Ω ) da denir.
 -----------------------------------------------------------------------------------------------------------------
 
 #Average Case (Ortalama Durum)
+
+
 Adından da anlaşılacağı gibi, best case ile worst case arasında ortaya çıkan durumdur.
 Teta notasyonu ( θ ) da denir.
 
 -----------------------------------------------------------------------------------------------------------------
 
 #Worst Case (En Kötü Durum)
+
+
 Algoritmanın en fazla adımda ve zamanda çalıştığı durumdur. Olabilecek tüm olumsuz durumları kapsar.
 Big O notasyonu ( O ) da denir.
 

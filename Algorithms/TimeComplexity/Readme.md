@@ -1,8 +1,14 @@
 ﻿#Time Complexity Önemli Notlar  
+
+
 Time Complexity yani zaman karmaşıklığı bir algoritma analizi yöntemidir.Bir diğer değişle Time complexity bir algoritmanın çalışması için gerekli olan süredir. Ancak buradaki süre, saniyeleri hesaplayarak değil, kaç tane işlem gerçekleştirdiğine göre hesaplanmaktadır. Uygulama tarafından gerçekleştirilen işlem sayısı, veri setinin büyüklüğüne ve o veri setindeki elemanlarına sırasına göre belirlenir.
 
 1-)TimeComplexity'in T'si ile ifade edilir."T(n)" n ise algoritmanın girdisidir.
+
+
 Algoritmanın Girdisi:
+
+
 **Dizi(Boyutu)
 **Polinom(Polinom Derecesi)
 **Matris(Eleman Sayısı)
@@ -10,6 +16,8 @@ Algoritmanın Girdisi:
 **Graf(Kenar ve Düğüm sayısı)
 
 2-)Algoritmanın Dayandığı Paradigma:
+
+
 **Backtracking
 **Branch And Bound
 **Brute-Force Search
@@ -19,6 +27,8 @@ Algoritmanın Girdisi:
 **Prune And Search
 
 3-)Çalışma Süresi:
+
+
 Burdaki süre zamanı değil; işlem sayısını ifade eder.
 
 Time complexity bize bir algoritma için 3 durum sunar. Best-case, average-case ve worst-case.
