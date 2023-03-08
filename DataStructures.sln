@@ -19,7 +19,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DataStructures.Stack", "Dat
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DataStructures.Queue", "DataStructures.Queue\DataStructures.Queue.csproj", "{4E1AA8F4-CC53-401E-981C-034464635F68}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataStructures.Tree", "DataStructures.Tree\DataStructures.Tree.csproj", "{689BA31A-EF5A-47FE-B992-664330ED9891}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DataStructures.Tree", "DataStructures.Tree\DataStructures.Tree.csproj", "{689BA31A-EF5A-47FE-B992-664330ED9891}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataStructures.HashTable", "DataStructures.HashTable\DataStructures.HashTable.csproj", "{14A821C8-3ABD-4164-80A3-3196F2E340B2}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -63,6 +65,10 @@ Global
 		{689BA31A-EF5A-47FE-B992-664330ED9891}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{689BA31A-EF5A-47FE-B992-664330ED9891}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{689BA31A-EF5A-47FE-B992-664330ED9891}.Release|Any CPU.Build.0 = Release|Any CPU
+		{14A821C8-3ABD-4164-80A3-3196F2E340B2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{14A821C8-3ABD-4164-80A3-3196F2E340B2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{14A821C8-3ABD-4164-80A3-3196F2E340B2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{14A821C8-3ABD-4164-80A3-3196F2E340B2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
